@@ -1,0 +1,200 @@
+/*----------------------------------------*/
+/*  HEADER
+/*----------------------------------------*/
+
+.header {
+  &__area {
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9991;
+    border-right: 1px solid rgba(240, 240, 240, 0.07);
+    mix-blend-mode: exclusion;
+    transition: all 0.5s;
+
+    @media #{$xxl} {
+      width: 62px;
+    }
+
+    @media #{$xl} {
+      width: 62px;
+    }
+
+    @media #{$lg} {
+      padding: 0 15px;
+      width: 100%;
+      height: auto;
+    }
+
+    @media #{$md} {
+      padding: 0 15px;
+      width: 100%;
+      height: auto;
+    }
+
+    @media #{$sm} {
+      padding: 0 15px;
+      width: 100%;
+      height: auto;
+    }
+
+    button {
+      display: block;
+      margin-top: -58px;
+      padding: 20px;
+
+      @media #{$lg} {
+        margin-top: 0;
+      }
+
+      @media #{$md} {
+        margin-top: 0;
+      }
+
+      @media #{$sm} {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__inner {
+    padding: 50px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    @include zi(9);
+
+    @media #{$lg} {
+      padding: 10px 0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+    @media #{$md} {
+      padding: 10px 0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+    @media #{$sm} {
+      padding: 5px 0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+    }
+  }
+
+  &__nav {
+    &-icon {
+      @media #{$lg} {
+        grid-column: -1;
+      }
+
+      @media #{$md} {
+        grid-column: -1;
+      }
+
+      @media #{$sm} {
+        grid-column: -1;
+      }
+    }
+  }
+
+  &__support {
+    @media #{$lg} {
+      grid-column: 11/11;
+      grid-row: 1;
+    }
+
+    @media #{$md} {
+      grid-column: 11/11;
+      grid-row: 1;
+    }
+
+    @media #{$sm} {
+      display: none;
+    }
+
+    p {
+      width: 215px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 1.3;
+      color: var(--gray-2);
+      text-align: right;
+      transform: rotate(-90deg);
+
+      @media #{$lg} {
+        transform: rotate(0deg);
+      }
+
+      @media #{$md} {
+        transform: rotate(0deg);
+      }
+
+      @media #{$sm} {
+        transform: rotate(0deg);
+      }
+
+      a {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.3;
+        color: var(--white);
+      }
+    }
+  }
+
+  &__logo {
+    &-2 {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+// sticky Menu
+
+// Logo
+.logo {
+  &-primary {
+    @media #{$lg} {
+      display: none;
+    }
+
+    @media #{$md} {
+      display: none;
+    }
+
+    @media #{$sm} {
+      display: none;
+    }
+  }
+
+  &-secondary {
+    display: none;
+
+    @media #{$lg} {
+      display: block;
+    }
+
+    @media #{$md} {
+      display: block;
+    }
+
+    @media #{$sm} {
+      display: block;
+    }
+  }
+}
+
+// Dark Version
+.dark {
+  .menu-icon img {
+    filter: invert(1);
+  }
+}

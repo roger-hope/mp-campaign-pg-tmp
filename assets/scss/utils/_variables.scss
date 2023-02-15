@@ -1,0 +1,85 @@
+/*----------------------------------------*/
+/*  VARIABLES
+/*----------------------------------------*/
+
+// Colors
+:root {
+  --primary: #ecf87f;
+  --secondary: #3d550c;
+
+  --black: #000;
+  --black-2: #121212;
+  --black-3: #555;
+  --black-4: #1d1d1d;
+  --black-5: #343434;
+  --black-6: #262626;
+  --black-7: #555555;
+  --black-13: #666;
+
+  --white: #fff;
+  --white-2: #efefef;
+  --white-3: #e9e9e9;
+  --white-4: #f0f0f0;
+  --white-5: #fbfbfb;
+  --white-6: #d7d7d7;
+
+  --gray: #c2c2c2;
+  --gray-2: #999;
+  --gray-3: #a8a8a8;
+  --gray-4: #f6f6f6;
+  --gray-5: #bbb;
+  --gray-6: #2b2b2b;
+  --gray-7: #b9b9b9;
+  --gray-8: #8e8e8e;
+  --gray-9: #aaa;
+  --gray-10: #7c7c7c;
+  --gray-11: #d9d9d9;
+  --gray-12: #383838;
+  --gray-13: #ccc;
+  --gray-14: #dfdfdf;
+  --gray-15: #c0c0c0;
+
+  --pink: #faede9;
+  --pink-2: #ff9776;
+  --pink-3: #f3ecec;
+  --pink-4: #fffaf0;
+  --pink-5: #e0e3cc;
+  --pink-6: #eee5dc;
+
+  --bg-line: #1e1e1e;
+
+  --d-gray: #6a6a6a;
+  --d-black: #1a1a1a;
+  --d-black-2: #171717;
+  --d-black-3: #1a1a1a;
+
+  --green: #81c3a3;
+  --green-1: #365140;
+  --green-2: #dce4e0;
+  --green-3: #81b622;
+
+  --purple: #d9dbeb;
+  --purple-2: #cccede;
+}
+
+// Font Family | reference: https://fonts.bunny.net/
+@font-face {
+  font-family: newYork;
+  src: url("/assets/fonts/newyork/FontsFree-Net-NewYork.ttf");
+  font-weight: 400;
+}
+
+// Font Family
+$font_primary: "Kanit", sans-serif;
+$font_awesome: "Font Awesome 6 Free";
+$font_newyork: "newYork";
+
+// Responsive Variable: custom and separate from Bootstrap values
+$xxxl: "only screen and (min-width: 1920px)";
+$xxl: "only screen and (min-width: 1400px) and (max-width: 1919px)";
+$xxl-1: "only screen and (min-width: 1200px) and (max-width: 1600px)";
+$xl: "only screen and (min-width: 1200px) and (max-width: 1399px)";
+$lg: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$md: "only screen and (min-width: 768px) and (max-width: 991px)";
+$sm: "only screen and (max-width: 767px)";
+$xs: "(max-width: 575px)";

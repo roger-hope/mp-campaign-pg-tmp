@@ -1,0 +1,38 @@
+/*----------------------------------------*/
+/*  TITLE
+/*----------------------------------------*/
+
+// Section Title
+.sec {
+  &-title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1;
+    color: var(--black-2);
+
+    @media #{$xl} {
+      font-size: 50px;
+    }
+
+    @media #{$lg} {
+      font-size: 45px;
+    }
+
+    @media #{$md} {
+      font-size: 36px;
+    }
+
+    @media #{$sm} {
+      font-size: 32px;
+    }
+  }
+
+  &-sub-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--black-3);
+    padding-bottom: 15px;
+    text-transform: capitalize;
+  }
+}

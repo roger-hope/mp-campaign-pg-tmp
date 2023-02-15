@@ -1,0 +1,156 @@
+/*----------------------------------------*/
+/*  THEME: DARK
+/*----------------------------------------*/
+
+.dark {
+  background-color: var(--black-2);
+
+  .logo {
+    &-light {
+      display: block;
+    }
+
+    &-dark {
+      display: none;
+    }
+  }
+
+  .wc-btn-primary,
+  .wc-btn-secondary {
+    border-color: var(--secondary);
+    color: var(--gray-2);
+  }
+
+  .wc-btn-black {
+    &:hover {
+      border-color: var(--white);
+      color: var(--black-2);
+
+      span {
+        background-color: var(--white);
+      }
+    }
+  }
+
+  .line::before,
+  .line::after,
+  .line-3 {
+    background-color: var(--bg-line);
+  }
+
+  p {
+    color: var(--gray-2);
+  }
+
+  .sec-title,
+  .sec-sub-title {
+    color: var(--white);
+  }
+
+  .hero {
+    &__area {
+      &-3 {
+        background-color: var(--d-black-2);
+
+        &::before {
+          filter: invert(0.9);
+        }
+
+        .sec-sub-title,
+        .sec-title,
+        .intro-title .video-title {
+          color: var(--white);
+        }
+
+        .scroll-down img {
+          filter: invert(1);
+        }
+
+        .sec-sub-title::after {
+          background-color: var(--white);
+        }
+      }
+    }
+
+    &-title {
+      color: var(--white);
+    }
+
+    &__inner-3 {
+      .video-intro-title {
+        color: var(--gray-2);
+
+        span {
+          color: var(--white);
+        }
+      }
+    }
+  }
+
+  .service {
+    &__area {
+      background-color: var(--d-black-2);
+
+      &-6 {
+        background-color: var(--d-black-2);
+      }
+    }
+  }
+
+  .wc-btn-dark {
+    color: var(--white);
+    border-color: var(--white);
+  }
+
+  .cta {
+    &__area {
+      background-color: var(--black-2);
+    }
+
+    &__title {
+      color: var(--white);
+    }
+
+    &__sub-title {
+      color: var(--white);
+    }
+
+    &__content {
+      @media #{$sm} {
+        padding-top: 0px;
+      }
+    }
+  }
+
+  .footer {
+    &__area {
+      background-color: var(--black-2);
+    }
+
+    &__inner {
+      background-color: var(--d-black-2);
+    }
+
+    &-line {
+      &::after {
+        background: var(--bg-line);
+      }
+    }
+  }
+}
+
+.bg-white {
+  background-color: var(--black-2) !important;
+}
+
+.error__content::before {
+  filter: invert(1);
+}
+
+.sticky-2 .header__nav-icon-5 {
+  filter: invert(0);
+}
+
+.hero__area-3::after {
+  filter: invert(1);
+}
