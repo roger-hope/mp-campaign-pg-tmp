@@ -2431,37 +2431,57 @@ footer .btn_wrapper {
   transform: translate(-50%, -50%);
   z-index: 2;
 }
-.loading .bar {
-  width: 6px;
-  height: 60px;
-  background: var(--white);
-  display: inline-block;
-  transform-origin: bottom center;
-  animation: wcLoading 1.5s ease-in-out infinite;
+.loading .preloader-blob-wrapper {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  filter: blur(10px) contrast(20);
 }
-.loading .bar1 {
-  animation-delay: 0.1s;
+.loading .blob-1,
+.loading .blob-2 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.loading .bar2 {
-  animation-delay: 0.2s;
+.loading .blob-1 {
+  left: 20%;
+  animation: osc-l 2.5s ease infinite;
 }
-.loading .bar3 {
-  animation-delay: 0.3s;
+.loading .blob-2 {
+  left: 80%;
+  animation: osc-r 2.5s ease infinite;
+  background: #0ff;
 }
-.loading .bar4 {
-  animation-delay: 0.4s;
+@keyframes osc-l {
+  0% {
+    left: 20%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 20%;
+  }
 }
-.loading .bar5 {
-  animation-delay: 0.5s;
-}
-.loading .bar6 {
-  animation-delay: 0.6s;
-}
-.loading .bar7 {
-  animation-delay: 0.7s;
-}
-.loading .bar8 {
-  animation-delay: 0.8s;
+@keyframes osc-r {
+  0% {
+    left: 80%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 80%;
+  }
 }
 
 /*# sourceMappingURL=master.css.map */
