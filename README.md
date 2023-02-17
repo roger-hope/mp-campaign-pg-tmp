@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Mediaphonix Campaign Landing page 👋</h1>
+<h1 align="center">Welcome to the Mediaphonix Campaign Landing page 👋</h1>
 <p>
   <a href="help.mediaphonix.com/campaign" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -15,7 +15,7 @@
 
 ### 🏠 [Homepage](mediaphonix.com)
 
-### ✨ [Demo](campaign.mediaphonix.com)
+### ✨ [Demo](https://mp-campaign-pg-tmp.vercel.app/)
 
 ## Usage
 
@@ -76,13 +76,13 @@ SASS watch command: sass --watch assets/scss/master.scss assets/css/master.css
 
 👤 **Roger Hope | Mediaphonix**
 
-- Website: mediaphonix.com
+- Website: [Roger Hope](https://rogerhope.de) | [Mediaphonix](https://mediaphonix.com)
 - Twitter: [@mediaphonix](https://twitter.com/mediaphonix)
 - Github: [@mediaphonix](https://github.com/mediaphonix)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/roger-hope/mp-campaign-pg-tmp/issues). You can also take a look at the [contributing guide](/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/roger-hope/mp-campaign-pg-tmp/issues).
 
 ## Show your support
 
