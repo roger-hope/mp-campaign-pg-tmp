@@ -411,11 +411,24 @@
         <footer class="footer__area">
           <div class="footer__top">
             <div class="container footer-line"></div>
-            <img
-              src="assets/imgs/footer/footer_img1.jpg"
-              alt="Footer Image"
-              data-speed="0.5"
-            />
+
+            <picture>
+              <source
+                srcset="
+                  assets/imgs/footer/footer_img1_667w.webp 600w,
+                  assets/imgs/footer/footer_img1_375w.webp 350w
+                "
+                type="image/webp"
+              />
+              <img
+                src="assets/imgs/footer/footer_img1.webp"
+                alt="Mediaphonix | bridging the digital and physical world,
+                beautifully"
+                class="footer-img"
+                data-speed="0.5"
+                loading="lazy"
+              />
+            </picture>
           </div>
 
           <div class="footer__btm">

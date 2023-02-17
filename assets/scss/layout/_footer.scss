@@ -41,6 +41,7 @@
 
     img {
       margin-bottom: -380px;
+      width: 60%;
 
       @media #{$lg} {
         margin-bottom: -300px;
@@ -49,7 +50,7 @@
 
       @media #{$md} {
         margin-bottom: -250px;
-        width: 100%;
+        width: 90%;
       }
 
       @media #{$sm} {

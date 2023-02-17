@@ -1978,6 +1978,7 @@ img {
 }
 .footer__top img {
   margin-bottom: -380px;
+  width: 60%;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer__top img {
@@ -1988,7 +1989,7 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer__top img {
     margin-bottom: -250px;
-    width: 100%;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 767px) {
