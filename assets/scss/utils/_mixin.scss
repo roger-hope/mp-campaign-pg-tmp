@@ -53,12 +53,14 @@
   }
 
   li {
-    display: inline-block;
     padding-bottom: 10px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.5;
     color: $color;
+    list-style: circle;
+    margin-left: 25px;
+    display: list-item;
 
     @media #{$xl} {
       font-size: 16px;

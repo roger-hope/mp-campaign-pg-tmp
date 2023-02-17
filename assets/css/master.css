@@ -1651,12 +1651,14 @@ img {
   }
 }
 .service__item-6 ul li {
-  display: inline-block;
   padding-bottom: 10px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: var(--white);
+  list-style: circle;
+  margin-left: 25px;
+  display: list-item;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .service__item-6 ul li {
